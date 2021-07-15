@@ -4,4 +4,4 @@ permalink: /bookmarks/
 title: Music
 ---
 
-{% miniaudio '/assets/music/ClayPigeons.ogg' %}
+[Clay Pigeons]('/assets/music/ClayPigeons.ogg')
