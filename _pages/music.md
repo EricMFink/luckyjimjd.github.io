@@ -4,4 +4,4 @@ permalink: /music/
 title: Music
 ---
 
-[Clay Pigeons]('/assets/music/ClayPigeons.ogg')
+[Clay Pigeons]('../assets/music/ClayPigeons.ogg')
