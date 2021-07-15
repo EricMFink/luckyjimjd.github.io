@@ -1,6 +1,6 @@
 ---
 layout: music
-permalink: /music/
+permalink: /music_BAK/
 title: Music
 ---
 
