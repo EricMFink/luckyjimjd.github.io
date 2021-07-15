@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: music
 permalink: /bookmarks/
 title: Music
 ---
