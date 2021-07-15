@@ -6,13 +6,6 @@ title: Music
 
 {% for song in site.data.songs %}
 	
-<a href="{{ song.file }}">
-<span>
-<h4>{{ song.title }}</h4>
-</span>
-</a>
+<p>{{ song.title }} <a href="../assets/music/{{ song.file }}"><i class="{{ network.title }}"></i></a></p>
+
 {% endfor %}
-
-[Clay Pigeons](../assets/music/ClayPigeons.ogg)
-
-[Return of the Grievous Angel](../assets/music/ReturnOfTheGrievousAngel.ogg)
