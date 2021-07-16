@@ -19,6 +19,7 @@ title: Music
 <div class="column">
 {% for song in site.data.songs %}
 <p>{% include embed-audio.html src="../assets/music/{{ song.file }" %}</p>
+{% endfor %}
 </div>
 
 </div>
