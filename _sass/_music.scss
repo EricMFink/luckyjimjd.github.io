@@ -1,5 +1,6 @@
 .column {
 	float: left;
+	padding: 20px;
 }
 
 .left {
@@ -15,4 +16,14 @@
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: $medium-size;
 }
