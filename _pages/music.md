@@ -7,7 +7,7 @@ title: Music
 <div class="row">
 
 <div class="column">
-<div class="card">![](../assets/music/AlbumCover1.png)</div>
+<div class="card"><img src="../assets/music/AlbumCover1.png" alt="Album Cover" ></div>
 </div>
 
 <div class="column">
