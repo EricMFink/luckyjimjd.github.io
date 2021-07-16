@@ -4,7 +4,7 @@ permalink: /music/
 title: Music
 ---
 
-{% include embed-audio.html src="../assets/music/fireworks.ogg" %}
+{% include embed-audio.html src="../assets/music/Fireworks.ogg" %}
 
 
 {% for song in site.data.songs %}
