@@ -62,6 +62,12 @@ Amplitude.init({
       "cover_art_url": "../assets/music/AlbumCover.png"
     },
     {
+      "name": "Not Ashamed",
+      "artist": "Ulrich Kvetcher",
+      "url": "../assets/music/NotAshamed.ogg",
+      "cover_art_url": "../assets/music/AlbumCover.png"
+    },
+    {
       "name": "Return of the Grievous Angel",
       "artist": "Ulrich Kvetcher",
       "url": "../assets/music/GrievousAngel.ogg",

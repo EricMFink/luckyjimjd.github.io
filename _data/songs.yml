@@ -13,7 +13,12 @@
   index: '2'
   art: 'AlbumCover.png'
 
+- title: Not Ashamed
+  url: 'NotAshamed.ogg'
+  index: '3'
+  art: 'AlbumCover.png'
+
 - title: Return of the Grievous Angel
   url: 'GrievousAngel.ogg'
-  index: '3'
+  index: '4'
   art: 'AlbumCover.png'
