@@ -20,7 +20,7 @@ div#list-screen {
     height: 25px;
     position: relative;
     color: white;
-    font-family: "Lato", sans-serif;
+    font-family: @sans-font, sans-serif;
     cursor: pointer; }
     div#list-screen div#list-screen-header img#up-arrow {
       position: absolute;
@@ -31,7 +31,7 @@ div#list-screen {
       color: #fff;
       line-height: 25px;
       font-size: 16px;
-      font-family: "Lato", sans-serif;
+      font-family: @sans-font, sans-serif;
       letter-spacing: 0.5px; }
   div#list-screen div#list {
     overflow-y: scroll; }
@@ -47,7 +47,7 @@ div#list-screen {
         text-align: center; }
         div#list-screen div#list div.song span.song-number-now-playing span.number {
           opacity: 0.5;
-          font-family: "Lato", sans-serif;
+          font-family: @sans-font, sans-serif;
           font-size: 14px;
           color: #fff;
           letter-spacing: 0.5px; }
@@ -65,14 +65,14 @@ div#list-screen {
         vertical-align: middle;
         width: calc(100% - 80px); }
         div#list-screen div#list div.song div.song-meta-container span.song-name {
-          font-family: "Lato", sans-serif;
+          font-family: @sans-font, sans-serif;
           font-size: 14px;
           line-height: 16px;
           color: #55b560;
           letter-spacing: 0.47px;
           display: block; }
         div#list-screen div#list div.song div.song-meta-container span.song-artist-album {
-          font-family: "Lato", sans-serif;
+          font-family: @sans-font, sans-serif;
           font-size: 12px;
           line-height: 14px;
           color: #fff;
@@ -81,7 +81,7 @@ div#list-screen {
       div#list-screen div#list div.song span.song-duration {
         display: inline-block;
         opacity: 0.5;
-        font-family: 'Lato', sans-serif;
+        font-family: @sans-font, sans-serif;
         font-size: 14px;
         color: #fff;
         letter-spacing: 0.5px;
@@ -96,14 +96,14 @@ div#list-screen {
       width: calc(100% - 123px);
       float: left; }
       div#list-screen div#list-screen-footer div#list-screen-meta-container span.song-name {
-        font-family: "Lato", sans-serif;
+        font-family: @sans-font, sans-serif;
         font-size: 16px;
         color: #fff;
         letter-spacing: 0.5px;
         line-height: 24px; }
       div#list-screen div#list-screen-footer div#list-screen-meta-container div.song-artist-album {
         opacity: 0.5;
-        font-family: "Lato", sans-serif;
+        font-family: @sans-font, sans-serif;
         font-size: 14px;
         color: #fff;
         letter-spacing: 0.5px;
@@ -150,7 +150,7 @@ div.player-header {
   margin-top: 40px;
   cursor: pointer;
   color: white;
-  font-family: "Lato", sans-serif; }
+  font-family: @sans-font, sans-serif; }
   div.player-header img#down {
     position: absolute;
     top: 23px;
@@ -439,10 +439,10 @@ div#player-bottom {
   3. Layout
 */
 body {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: $background-color;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
-  font-family: "Lato", sans-serif; }
+  font-family: @sans-font, sans-serif; }
 
 div#flat-black-player-container {
   position: relative;
