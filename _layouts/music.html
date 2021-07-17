@@ -103,6 +103,14 @@
 
 </div>
 
+</div>
+
+{% include open-embed.html %}
+{% include footer.html %}
+{% include hemline.html %}
+
+</body>
+
 <script>
 
 window.onkeydown = function(e) {
@@ -156,13 +164,12 @@ Amplitude.init({
 });
 </script>
 
-</div>
+  <!--
+    Include UX functions JS
 
-{% include open-embed.html %}
-{% include footer.html %}
-{% include hemline.html %}
-
-</body>
+    NOTE: These are for handling things outside of the scope of AmplitudeJS
+  -->
+  <script type="text/javascript" src="https://www.emfink.net/assets/js/functions.js"></script>
 
 </html>
 
