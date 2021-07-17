@@ -1,3 +1,9 @@
+/*
+  1. Base
+*/
+/*
+  2. Components
+*/
 div#list-screen {
   background-color: #141920;
   position: absolute;
@@ -24,7 +30,7 @@ div#list-screen {
     div#list-screen div#list-screen-header span.list-active-song-name {
       color: #fff;
       line-height: 25px;
-      font-size: $medium-size;
+      font-size: 16px;
       font-family: $sans-font, sans-serif;
       letter-spacing: 0.5px; }
   div#list-screen div#list {
@@ -42,7 +48,7 @@ div#list-screen {
         div#list-screen div#list div.song span.song-number-now-playing span.number {
           opacity: 0.5;
           font-family: $sans-font, sans-serif;
-          font-size: $small-size;
+          font-size: 14px;
           color: #fff;
           letter-spacing: 0.5px; }
         div#list-screen div#list div.song span.song-number-now-playing img.now-playing {
@@ -60,23 +66,23 @@ div#list-screen {
         width: calc(100% - 80px); }
         div#list-screen div#list div.song div.song-meta-container span.song-name {
           font-family: $sans-font, sans-serif;
-          font-size: $small-size;
-          line-height: $medium-size;
+          font-size: 14px;
+          line-height: 16px;
           color: #55b560;
           letter-spacing: 0.47px;
           display: block; }
         div#list-screen div#list div.song div.song-meta-container span.song-artist-album {
           font-family: $sans-font, sans-serif;
-          font-size: $smaller-size;
-          line-height: $small-size;
+          font-size: 12px;
+          line-height: 14px;
           color: #fff;
           letter-spacing: 0.47px;
           display: block; }
       div#list-screen div#list div.song span.song-duration {
         display: inline-block;
         opacity: 0.5;
-        font-family: $sans-font, sans-serif;
-        font-size: $small-size;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
         color: #fff;
         letter-spacing: 0.5px;
         width: 35px;
@@ -91,17 +97,17 @@ div#list-screen {
       float: left; }
       div#list-screen div#list-screen-footer div#list-screen-meta-container span.song-name {
         font-family: $sans-font, sans-serif;
-        font-size: $medium-size;
+        font-size: 16px;
         color: #fff;
         letter-spacing: 0.5px;
         line-height: 24px; }
       div#list-screen div#list-screen-footer div#list-screen-meta-container div.song-artist-album {
         opacity: 0.5;
         font-family: $sans-font, sans-serif;
-        font-size: $small-size;
+        font-size: 14px;
         color: #fff;
         letter-spacing: 0.5px;
-        line-height: $medium-size; }
+        line-height: 16px; }
     div#list-screen div#list-screen-footer div.list-controls {
       width: 90px;
       float: right;
@@ -110,7 +116,7 @@ div#list-screen {
         cursor: pointer;
         width: 15px;
         height: 17px;
-        background-image: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/small-previous.svg");
+        background-image: url("../img/small-previous.svg");
         background-repeat: no-repeat;
         float: left;
         margin-right: 15px;
@@ -122,14 +128,14 @@ div#list-screen {
         background-repeat: no-repeat;
         float: left; }
         div#list-screen div#list-screen-footer div.list-controls div.list-play-pause.amplitude-playing {
-          background-image: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/small-pause.svg"); }
+          background-image: url("../img/small-pause.svg"); }
         div#list-screen div#list-screen-footer div.list-controls div.list-play-pause.amplitude-paused {
-          background-image: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/small-play.svg"); }
+          background-image: url("../img/small-play.svg"); }
       div#list-screen div#list-screen-footer div.list-controls div.list-next {
         cursor: pointer;
         width: 15px;
         height: 17px;
-        background-image: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/small-next.svg");
+        background-image: url("../img/small-next.svg");
         background-repeat: no-repeat;
         float: left;
         margin-left: 15px;
@@ -220,8 +226,8 @@ div#player-middle {
     color: white;
     width: 100%;
     background-color: #000;
-    font-size: $small-size;
-    font-weight: $bold-weight; }
+    font-size: 14px;
+    font-weight: bold; }
     div#player-middle div#time-container span.amplitude-duration-time {
       position: absolute;
       top: 0px;
@@ -231,19 +237,19 @@ div#player-middle {
       top: 0px;
       left: 5px; }
   div#player-middle span.song-name {
-    font-family: $sans-font, sans-serif;
-    font-size: $medium-size;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
     color: #fff;
     letter-spacing: 0.5px;
     line-height: 24px;
     display: block; }
   div#player-middle div.song-artist-album {
     opacity: 0.5;
-    font-family: $sans-font, sans-serif;
-    font-size: $small-size;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
     color: #fff;
     letter-spacing: 0.5px;
-    line-height: $medium-size; }
+    line-height: 16px; }
 
 div#player-bottom {
   background-color: #192029;
@@ -265,12 +271,12 @@ div#player-bottom {
       margin: auto;
       opacity: 0.7; }
       div#player-bottom div#control-container div#shuffle-container div#shuffle.amplitude-shuffle-off {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/shuffle.svg"); }
+        background: url("../img/shuffle.svg"); }
       div#player-bottom div#control-container div#shuffle-container div#shuffle.amplitude-shuffle-off:hover {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/shuffle-on.svg");
+        background: url("../img/shuffle-on.svg");
         opacity: 0.8; }
       div#player-bottom div#control-container div#shuffle-container div#shuffle.amplitude-shuffle-on {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/shuffle-on.svg");
+        background: url("../img/shuffle-on.svg");
         opacity: 1; }
       div#player-bottom div#control-container div#shuffle-container div#shuffle.amplitude-shuffle-on:hover {
         opacity: 1; }
@@ -280,13 +286,13 @@ div#player-bottom {
     height: 60px;
     padding-top: 18px; }
     div#player-bottom div#control-container div#prev-container div#previous {
-      background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/previous.svg");
+      background: url("../img/previous.svg");
       width: 24px;
       height: 24px;
       cursor: pointer;
       margin: auto; }
       div#player-bottom div#control-container div#prev-container div#previous:hover {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/previous-hover.svg"); }
+        background: url("../img/previous-hover.svg"); }
   div#player-bottom div#control-container div#play-pause-container {
     width: 20%;
     float: left;
@@ -297,39 +303,39 @@ div#player-bottom {
       cursor: pointer;
       margin: auto; }
       div#player-bottom div#control-container div#play-pause-container div#play-pause.amplitude-playing {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/pause.svg"); }
+        background: url("../img/pause.svg"); }
       div#player-bottom div#control-container div#play-pause-container div#play-pause.amplitude-paused {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/play.svg"); }
+        background: url("../img/play.svg"); }
   div#player-bottom div#control-container div#next-container {
     width: 20%;
     float: left;
     height: 60px;
     padding-top: 18px; }
     div#player-bottom div#control-container div#next-container div#next {
-      background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/next.svg");
+      background: url("../img/next.svg");
       width: 24px;
       height: 24px;
       cursor: pointer;
       margin: auto; }
       div#player-bottom div#control-container div#next-container div#next:hover {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/next-hover.svg"); }
+        background: url("../img/next-hover.svg"); }
   div#player-bottom div#control-container div#repeat-container {
     float: left;
     width: 20%;
     height: 60px;
     padding-top: 20px; }
     div#player-bottom div#control-container div#repeat-container div#repeat {
-      background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/repeat.svg");
+      background: url("../img/repeat.svg");
       width: 18px;
       height: 20px;
       cursor: pointer;
       margin: auto;
       opacity: 0.7; }
       div#player-bottom div#control-container div#repeat-container div#repeat:hover {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/repeat-on.svg");
+        background: url("../img/repeat-on.svg");
         opacity: 0.8; }
       div#player-bottom div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/flat-black/repeat-on.svg");
+        background: url("../img/repeat-on.svg");
         opacity: 1; }
         div#player-bottom div#control-container div#repeat-container div#repeat.amplitude-repeat-on:hover {
           opacity: 1; }
@@ -432,11 +438,19 @@ div#player-bottom {
 /*
   3. Layout
 */
-body {
-  background-color: rgba(0, 0, 0, 0.8);
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
-  font-family: $sans-font, sans-serif; }
+
+body.amplitudejs {
+	background-color: rgba(0, 0, 0, 0.8);
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+	font-family: $sans-font, sans-serif; 
+	width: 100%;
+	max-width: 100%;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: 2%;
+	padding: 0;
+}
 
 div#flat-black-player-container {
   position: relative;
@@ -522,15 +536,3 @@ div#flat-black-player-container {
     opacity: 0; } }
 
 /*# sourceMappingURL=app.css.map */
-
-a.learn-more{
-  background-color: #141920;
-  display: block;
-  width: 300px;
-  color: white;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  text-decoration: none;
-  padding: 10px;
-}
