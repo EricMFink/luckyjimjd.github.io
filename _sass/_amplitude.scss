@@ -81,7 +81,7 @@ div#list-screen {
       div#list-screen div#list div.song span.song-duration {
         display: inline-block;
         opacity: 0.5;
-        font-family: 'Lato', sans-serif;
+        font-family: $sans-font, sans-serif;
         font-size: 14px;
         color: #fff;
         letter-spacing: 0.5px;
