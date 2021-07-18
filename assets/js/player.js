@@ -6,9 +6,8 @@
 
 const audioPlayer = document.querySelector(".audio-player");
 const audio = new Audio(
-  "https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"
+  "https://www.emfink.net/assets/music/{{ page.song }}"
 );
-//credit for song: Adrian kreativaweb@gmail.com
 
 console.dir(audio);
 
