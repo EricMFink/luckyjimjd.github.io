@@ -32,6 +32,28 @@
 <!-- Adobe Fonts -->
 	<link rel="stylesheet" href="https://use.typekit.net/bin8lbz.css">
 
+<script type="text/javascript">
+    $(document).ready(function(){
+      $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title: "{{ page.title }}",
+            oga: "https://www.emfink.net/assets/music/{{ page.song }}"
+          });
+        },
+        cssSelectorAncestor: "#jp_container_1",
+        swfPath: "/js",
+        supplied: "oga",
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        remainingDuration: true,
+        toggleDuration: true
+      });
+    });
+  </script>
+
 </head>
 
 <body>
