@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: jPlayer
 title: Song Title 
 
 ---
