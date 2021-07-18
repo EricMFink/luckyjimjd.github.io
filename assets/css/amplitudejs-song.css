@@ -2,6 +2,19 @@
   1. Base
 */
 
+body {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	max-width: 100%;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	line-height: 1.5;
+	font-family: adelle-sans, Lato, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
 div.amplitude-play-pause {
   width: 74px;
   height: 74px;
@@ -11,12 +24,12 @@ div.amplitude-play-pause {
 }
 
 div.amplitude-play-pause.amplitude-paused {
-  background: url('../assets/img/play.svg');
+  background: url('../assets/img/amplitudejs/play.svg');
   background-size: cover;
 }
 
 div.amplitude-play-pause.amplitude-playing {
-  background: url('../assets/img/pause.svg');
+  background: url('../assets/img/amplitudejs/pause.svg');
   background-size: cover;
 }
 
