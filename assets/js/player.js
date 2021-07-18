@@ -5,9 +5,9 @@
 // - Hover over sliders to see preview of timestamp/volume change
 
 const audioPlayer = document.querySelector(".audio-player");
-const audio = new Audio(
-  "https://www.emfink.net/assets/music/{{ page.song }}"
-);
+// const audio = new Audio(
+//   "https://www.emfink.net/assets/music/{{ page.song }}"
+// );
 
 console.dir(audio);
 
