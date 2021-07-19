@@ -115,6 +115,14 @@ div#list-screen {
         float: left;
         margin-right: 15px;
         margin-top: 4px; }
+
+      div#list-screen div#list-screen-footer div.list-controls div.list-previous-null {
+        width: 15px;
+        height: 17px;
+        float: left;
+        margin-right: 15px;
+        margin-top: 4px; }
+
       div#list-screen div#list-screen-footer div.list-controls div.list-play-pause {
         cursor: pointer;
         width: 17px;
@@ -131,6 +139,12 @@ div#list-screen {
         height: 17px;
         background-image: url("../img/amplitudejs/small-next.svg");
         background-repeat: no-repeat;
+        float: left;
+        margin-left: 15px;
+        margin-top: 4px; }
+      div#list-screen div#list-screen-footer div.list-controls div.list-next-null {
+        width: 15px;
+        height: 17px;
         float: left;
         margin-left: 15px;
         margin-top: 4px; }
@@ -273,6 +287,13 @@ div#player-bottom {
         opacity: 1; }
       div#player-bottom div#control-container div#shuffle-container div#shuffle.amplitude-shuffle-on:hover {
         opacity: 1; }
+
+    div#player-bottom div#control-container div#shuffle-container-null div#shuffle {
+      width: 16px;
+      height: 17px;
+      margin: auto;
+      opacity: 0.7; }
+
   div#player-bottom div#control-container div#prev-container {
     width: 20%;
     float: left;
@@ -286,6 +307,18 @@ div#player-bottom {
       margin: auto; }
       div#player-bottom div#control-container div#prev-container div#previous:hover {
         background: url("../img/amplitudejs/previous-hover.svg"); }
+
+  div#player-bottom div#control-container div#prev-container-null {
+    width: 20%;
+    float: left;
+    height: 60px;
+    padding-top: 18px; }
+    div#player-bottom div#control-container div#prev-container div#previous {
+      background: transparent;
+      width: 24px;
+      height: 24px;
+      margin: auto; }
+
   div#player-bottom div#control-container div#play-pause-container {
     width: 20%;
     float: left;
@@ -312,6 +345,18 @@ div#player-bottom {
       margin: auto; }
       div#player-bottom div#control-container div#next-container div#next:hover {
         background: url("../img/amplitudejs/next-hover.svg"); }
+
+  div#player-bottom div#control-container div#next-container-null {
+    width: 20%;
+    float: left;
+    height: 60px;
+    padding-top: 18px; }
+    div#player-bottom div#control-container div#next-container div#next {
+      background: transparent;
+      width: 24px;
+      height: 24px;
+      margin: auto; }
+
   div#player-bottom div#control-container div#repeat-container {
     float: left;
     width: 20%;
@@ -332,6 +377,13 @@ div#player-bottom {
         opacity: 1; }
         div#player-bottom div#control-container div#repeat-container div#repeat.amplitude-repeat-on:hover {
           opacity: 1; }
+
+  div#player-bottom div#control-container div#repeat-container-null {
+    float: left;
+    width: 20%;
+    height: 60px;
+    padding-top: 20px; }
+
   div#player-bottom div#control-container::after {
     content: "";
     display: table;
