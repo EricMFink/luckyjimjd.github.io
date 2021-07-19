@@ -2,23 +2,28 @@
   url: 'BluesRunTheGame.ogg'
   index: '0'
   art: 'AlbumCover.png'
+  page: BluesRunTheGame
 
 - title: Clay Pigeons
   url: 'ClayPigeons.ogg'
+  page: ClayPigeons
   index: '1'
   art: 'AlbumCover.png'
 
 - title: Fireworks
   url: 'Fireworks.ogg'
+  page: Fireworks
   index: '2'
   art: 'AlbumCover.png'
 
 - title: Not Ashamed
   url: 'NotAshamed.ogg'
+  page: NotAshamed
   index: '3'
   art: 'AlbumCover.png'
 
 - title: Return of the Grievous Angel
   url: 'GrievousAngel.ogg'
+  page: GrievousAngel
   index: '4'
   art: 'AlbumCover.png'
