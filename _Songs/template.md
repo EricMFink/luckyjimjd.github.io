@@ -1,5 +1,5 @@
 ---
-layout: song
+layout: page
 title: Put the Song Title Here
 song: "NotAshamed.ogg"
 
