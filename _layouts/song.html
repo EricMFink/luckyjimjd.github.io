@@ -43,6 +43,34 @@
 
 	<div id="flat-black-player-container">
 
+		<div id="list-screen" class="slide-in-top">
+			<div id="list-screen-header" class="hide-playlist">
+				<img id="up-arrow" src="../assets/img/amplitudejs/up.svg" />
+			</div>
+
+			<div id="list">
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+					<span class="song-number-now-playing">
+						<span class="number">1</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="0"></span>
+					</div>
+				</div>
+			</div>
+
+			<div id="list-screen-footer">
+				<div id="list-screen-meta-container">
+					<span data-amplitude-song-info="name" class="song-name"></span>
+					</div>
+				</div>
+				<div class="list-controls">
+					<div class="list-play-pause amplitude-play-pause"></div>
+				</div>
+			</div>
+		</div>
+
 		<div id="player-screen">
 			<div id="player-top">
 				<img data-amplitude-song-info="cover_art_url" />
