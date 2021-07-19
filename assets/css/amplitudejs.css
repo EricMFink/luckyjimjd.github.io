@@ -110,7 +110,7 @@ div#list-screen {
         cursor: pointer;
         width: 15px;
         height: 17px;
-        background-image: url("../img/amplitudejs//small-previous.svg");
+        background-image: url("../asserts/img/amplitudejs//small-previous.svg");
         background-repeat: no-repeat;
         float: left;
         margin-right: 15px;
@@ -122,14 +122,14 @@ div#list-screen {
         background-repeat: no-repeat;
         float: left; }
         div#list-screen div#list-screen-footer div.list-controls div.list-play-pause.amplitude-playing {
-          background-image: url("../img/amplitudejs//small-pause.svg"); }
+          background-image: url("../assets/img/amplitudejs//small-pause.svg"); }
         div#list-screen div#list-screen-footer div.list-controls div.list-play-pause.amplitude-paused {
-          background-image: url("../img/amplitudejs//small-play.svg"); }
+          background-image: url("../assets/img/amplitudejs//small-play.svg"); }
       div#list-screen div#list-screen-footer div.list-controls div.list-next {
         cursor: pointer;
         width: 15px;
         height: 17px;
-        background-image: url("../img/amplitudejs//small-next.svg");
+        background-image: url("../assets/img/amplitudejs//small-next.svg");
         background-repeat: no-repeat;
         float: left;
         margin-left: 15px;
