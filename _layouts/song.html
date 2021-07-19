@@ -41,28 +41,39 @@
 
 <div class="page-container">
 
-	<div id="single-song-player">
-		<img data-amplitude-song-info="cover_art_url" />
-		<div class="bottom-container">
-			<progress class="amplitude-song-played-progress" id="song-played-progress"></progress>
+	<div id="flat-black-player-container">
 
-			<div class="time-container">
-				<span class="current-time">
-					<span class="amplitude-current-minutes"></span>:<span class="amplitude-current-seconds"></span>
-				</span>
-				<span class="duration">
-					<span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
-				</span>
+		<div id="player-screen">
+			<div id="player-top">
+				<img data-amplitude-song-info="cover_art_url" />
 			</div>
-
-			<div class="control-container">
-				<div class="amplitude-play-pause" id="play-pause"></div>
-				<div class="meta-container">
+			<div id="player-progress-bar-container">
+				<progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+				<progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+			</div>
+			<div id="player-middle">
+				<div id="time-container">
+					<span class="amplitude-current-time time-container"></span>
+					<span class="amplitude-duration-time time-container"></span>
+				</div>
+				<div id="meta-container">
 					<span data-amplitude-song-info="name" class="song-name"></span>
-					<span data-amplitude-song-info="artist"></span>
+				</div>
+			</div>
+			<div id="player-bottom">
+				<div id="control-container">
+
+					<div id="play-pause-container">
+						<div class="amplitude-play-pause" id="play-pause"></div>
+					</div>
+
+				</div>
+				<div id="volume-container">
+					<img src="../assets/img/amplitudejs/volume.svg" /><input type="range" class="amplitude-volume-slider" step=".1" />
 				</div>
 			</div>
 		</div>
+
 	</div>
 
 </div>
