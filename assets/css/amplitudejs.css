@@ -288,11 +288,27 @@ div#player-bottom {
       div#player-bottom div#control-container div#shuffle-container div#shuffle.amplitude-shuffle-on:hover {
         opacity: 1; }
 
-    div#player-bottom div#control-container div#shuffle-container-null div#shuffle {
+  div#player-bottom div#control-container div#shuffle-container-null {
+    float: left;
+    width: 20%;
+    height: 60px;
+    padding-top: 21px; }
+    div#player-bottom div#control-container div#shuffle-container-null div#shuffle-null {
       width: 16px;
       height: 17px;
+      cursor: pointer;
       margin: auto;
-      opacity: 0.7; }
+      opacity: 0; }
+      div#player-bottom div#control-container div#shuffle-container div#shuffle.amplitude-shuffle-off {
+        background: url("../img/amplitudejs/shuffle.svg"); }
+      div#player-bottom div#control-container div#shuffle-container-null div#shuffle.amplitude-shuffle-off:hover {
+        background: url("../img/amplitudejs/shuffle-on.svg");
+        opacity: 0; }
+      div#player-bottom div#control-container div#shuffle-container-null div#shuffle.amplitude-shuffle-on {
+        background: url("../img/amplitudejs/shuffle-on.svg");
+        opacity: 0; }
+      div#player-bottom div#control-container div#shuffle-container-null div#shuffle.amplitude-shuffle-on:hover {
+        opacity: 0; }
 
   div#player-bottom div#control-container div#prev-container {
     width: 20%;
@@ -312,12 +328,18 @@ div#player-bottom {
     width: 20%;
     float: left;
     height: 60px;
-    padding-top: 18px; }
-    div#player-bottom div#control-container div#prev-container div#previous {
-      background: transparent;
+    padding-top: 18px; 
+	opacity: 0; }
+    div#player-bottom div#control-container div#prev-container-null div#previous-null {
+      background: url("../img/amplitudejs/previous.svg");
       width: 24px;
       height: 24px;
-      margin: auto; }
+      cursor: pointer;
+      margin: auto; 
+      opacity: 0; }
+      div#player-bottom div#control-container div#prev-container-null div#previous-null:hover {
+        background: url("../img/amplitudejs/previous-hover.svg"); 
+        opacity: 0; }
 
   div#player-bottom div#control-container div#play-pause-container {
     width: 20%;
@@ -332,6 +354,7 @@ div#player-bottom {
         background: url("../img/amplitudejs/pause.svg"); }
       div#player-bottom div#control-container div#play-pause-container div#play-pause.amplitude-paused {
         background: url("../img/amplitudejs/play.svg"); }
+
   div#player-bottom div#control-container div#next-container {
     width: 20%;
     float: left;
@@ -350,12 +373,18 @@ div#player-bottom {
     width: 20%;
     float: left;
     height: 60px;
-    padding-top: 18px; }
-    div#player-bottom div#control-container div#next-container div#next {
-      background: transparent;
+    padding-top: 18px;  
+	opacity: 0; }
+    div#player-bottom div#control-container div#next-container-null div#next-null {
+      background: url("../img/amplitudejs/next.svg");
       width: 24px;
       height: 24px;
-      margin: auto; }
+      cursor: pointer;
+      margin: auto;  
+      opacity: 0; }
+      div#player-bottom div#control-container div#next-container div#next-null:hover {
+        background: url("../img/amplitudejs/next-hover.svg");  
+        opacity: 0; }
 
   div#player-bottom div#control-container div#repeat-container {
     float: left;
@@ -383,6 +412,20 @@ div#player-bottom {
     width: 20%;
     height: 60px;
     padding-top: 20px; }
+    div#player-bottom div#control-container div#repeat-container-null div#repeat {
+      background: url("../img/amplitudejs/repeat.svg");
+      width: 18px;
+      height: 20px;
+      margin: auto;
+      opacity: 0; }
+      div#player-bottom div#control-container div#repeat-container div#repeat:hover {
+        background: url("../img/amplitudejs/repeat-on.svg");
+        opacity: 0; }
+      div#player-bottom div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
+        background: url("../img/amplitudejs/repeat-on.svg");
+        opacity: 0; }
+        div#player-bottom div#control-container div#repeat-container div#repeat.amplitude-repeat-on:hover {
+          opacity: 0; }
 
   div#player-bottom div#control-container::after {
     content: "";
