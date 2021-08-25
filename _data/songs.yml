@@ -33,3 +33,9 @@
   page: NewPaint
   index: '5'
   art: 'AlbumCover.png'
+
+- title: True Love Will Find You in the End
+  url: 'TrueLoveWillFindYou.ogg'
+  page: TrueLoveWillFindYou
+  index: '6'
+  art: 'AlbumCover.png'
