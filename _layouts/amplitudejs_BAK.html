@@ -47,21 +47,85 @@
 			</div>
 
 			<div id="list">
-
-				{% for song in site.data.songs %}
-
-				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="{{ song.index }}">
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
 					<span class="song-number-now-playing">
-						<span class="number"> </span>
+						<span class="number">1</span>
 						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
 					</span>
 					<div class="song-meta-container">
-						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="{{ song.index }}"></span>
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="0"></span>
 					</div>
 				</div>
 
-				{% endfor %}
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">
+					<span class="song-number-now-playing">
+						<span class="number">2</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="1"></span>
+					</div>
+				</div>
 
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2">
+					<span class="song-number-now-playing">
+						<span class="number">3</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="2"></span>
+					</div>
+				</div>
+
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="3">
+					<span class="song-number-now-playing">
+						<span class="number">4</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="3"></span>
+					</div>
+				</div>
+
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="4">
+					<span class="song-number-now-playing">
+						<span class="number">5</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="4"></span>
+					</div>
+				</div>
+
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5">
+					<span class="song-number-now-playing">
+						<span class="number">6</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="5"></span>
+					</div>
+				</div>
+
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="6">
+					<span class="song-number-now-playing">
+						<span class="number">7</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="6"></span>
+					</div>
+				</div>
+
+				<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="7">
+					<span class="song-number-now-playing">
+						<span class="number">8</span>
+						<img class="now-playing" src="../assets/img/amplitudejs/now-playing.svg" />
+					</span>
+					<div class="song-meta-container">
+						<span class="song-name" data-amplitude-song-info="name" data-amplitude-song-index="7"></span>
+					</div>
+				</div>
 			</div>
 
 			<div id="list-screen-footer">
@@ -135,64 +199,13 @@
 	{% include footer.html %}
 	{% include hemline.html %}
 
-
+</body>
 <script type="text/javascript">
-	window.onkeydown = function(e) {
-		return !(e.keyCode == 32);
-	};
 
-	/*
-	  Handles a click on the down button to slide down the playlist.
-	*/
-	document.getElementsByClassName('down-header')[0].addEventListener('click', function() {
-		var list = document.getElementById('list');
 
-		list.style.height = (parseInt(document.getElementById('flat-black-player-container').offsetHeight) - 135) + 'px';
-
-		document.getElementById('list-screen').classList.remove('slide-out-top');
-		document.getElementById('list-screen').classList.add('slide-in-top');
-		document.getElementById('list-screen').style.display = "block";
-	});
-
-	/*
-	  Handles a click on the up arrow to hide the list screen.
-	*/
-	document.getElementsByClassName('hide-playlist')[0].addEventListener('click', function() {
-		document.getElementById('list-screen').classList.remove('slide-in-top');
-		document.getElementById('list-screen').classList.add('slide-out-top');
-		document.getElementById('list-screen').style.display = "none";
-	});
-
-	/*
-	  Handles a click on the song played progress bar.
-	*/
-	document.getElementById('song-played-progress').addEventListener('click', function(e) {
-		var offset = this.getBoundingClientRect();
-		var x = e.pageX - offset.left;
-
-		Amplitude.setSongPlayedPercentage((parseFloat(x) / parseFloat(this.offsetWidth)) * 100);
-	});
-
-	document.querySelector('img[data-amplitude-song-info="cover_art_url"]').style.height = document.querySelector('img[data-amplitude-song-info="cover_art_url"]').offsetWidth + 'px';
-
-	Amplitude.init({
-		"bindings": {
-			37: 'prev',
-			39: 'next',
-			32: 'play_pause'
-		},
-		"songs": [
-			{% for song in site.data.songs %}
-			{
-			"name": "{{ song.title }}",
-			"url": "../assets/music/{{ song.url }}",
-			"cover_art_url": "../assets/music/{{ song.art }}"
-			}
-			{% endfor %}
-		]
-	});
 </script>
 
-</body>
+<!-- Amplitude JS UX and Playlist -->
+<script type="text/javascript" src="../assets/js/functions.js"></script>
 
 </html>
