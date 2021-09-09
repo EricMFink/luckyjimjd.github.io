@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Song Title
-song: "Song.ogg"
+title: 'Song Title'
+permalink: /Songs/Title
+song: 'Song.ogg'
+art: 'AlbumCover.png'
 
 ---
 
