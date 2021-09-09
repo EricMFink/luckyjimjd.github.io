@@ -39,3 +39,9 @@
   page: TrueLoveWillFindYou
   index: '6'
   art: 'AlbumCover.png'
+
+- title: 'Oops, I Did It Again'
+  url: 'Oops.ogg'
+  page: Oops
+  index: '7'
+  art: 'AlbumCover.png'
