@@ -45,3 +45,9 @@
   page: Oops
   index: '7'
   art: 'AlbumCover.png'
+
+- title: 'Leaving Egypt'
+  url: 'LeavingEgypt.flac'
+  page: 'Leaving Egypt'
+  index: '8'
+  art: 'AlbumCover.png'
