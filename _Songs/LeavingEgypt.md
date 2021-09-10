@@ -2,7 +2,7 @@
 layout: song
 title: 'Leaving Egypt'
 permalink: /Songs/LeavingEgypt
-song: 'LeavingEgypt.flac'
+song: 'Egypt.flac'
 art: 'AlbumCover.png'
 
 ---
