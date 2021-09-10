@@ -72,24 +72,24 @@ Amplitude.init({
       "artist": "Ulrich Kvetcher",
       "url": "../assets/music/GrievousAngel.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
-    }
+    },
     {
       "name": "New Paint",
       "artist": "Ulrich Kvetcher",
       "url": "../assets/music/NewPaint.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
-    }
+    },
     {
       "name": "True Love Will Find You in the End",
       "artist": "Ulrich Kvetcher",
       "url": "../assets/music/TrueLoveWillFindYou.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
-    }
+    },
     {
       "name": "Opps, I Did It Again",
       "artist": "Ulrich Kvetcher",
       "url": "../assets/music/Oops.ogg",
       "cover_art_url": "../assets/music/AlbumCover.png"
-    }
+    },
   ]
 });
