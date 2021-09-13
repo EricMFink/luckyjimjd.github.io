@@ -47,7 +47,7 @@
   art: 'AlbumCover.png'
 
 - title: 'Leaving Egypt'
-  url: 'LeavingEgypt.flac'
+  url: 'LeavingEgypt.ogg'
   page: LeavingEgypt
   index: '8'
   art: 'AlbumCover.png'
