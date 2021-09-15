@@ -51,3 +51,9 @@
   page: LeavingEgypt
   index: '8'
   art: 'AlbumCover.png'
+
+- title: 'Too Good to Believe'
+  url: 'TooGood.ogg'
+  page: TooGood
+  index: '9'
+  art: 'AlbumCover.png'
